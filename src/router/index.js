@@ -6,11 +6,13 @@ import Ejemplo2 from '../views/Ejemplo2.vue'
 Vue.use(VueRouter)
 
 const routes = [
+  /* ruta principal: danier*/
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'Ejemplo2',
+    component: Ejemplo2
   },
+  /*-------*/
   {
     path: '/Ejemplor',
     name: 'Ejemplor',
