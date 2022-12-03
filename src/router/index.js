@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Ejemplor from '../views/Ejemplor.vue'
 import Ejemplo2 from '../views/Ejemplo2.vue'
+import Actualizar from "../views/actualizar.vue"
 Vue.use(VueRouter)
 
 const routes = [
@@ -11,6 +12,11 @@ const routes = [
     path: '/',
     name: 'Ejemplo2',
     component: Ejemplo2
+  },
+  {
+    path: '/actualizar/:id',
+    name: 'actualizar',
+    component: Actualizar
   },
   /*-------*/
   {
